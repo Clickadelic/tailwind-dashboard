@@ -1,0 +1,29 @@
+{
+	"name": "tailwind-dashboard",
+	"version": "1.0.0",
+	"description": "A dashboard layout based on TailWind - feel free to copy.",
+	"main": "index.js",
+	"scripts": {
+		"TailWind": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@bitbucket.org/webdev-hq/tailwind-dashboard.git"
+	},
+	"keywords": [
+		"TailWind"
+	],
+	"author": "Tobias Hopp",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://bitbucket.org/webdev-hq/tailwind-dashboard/issues"
+	},
+	"homepage": "https://bitbucket.org/webdev-hq/tailwind-dashboard#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.2.4"
+	},
+	"dependencies": {
+		"bootstrap-icons": "^1.11.2",
+		"tw-elements": "^1.1.0"
+	}
+}

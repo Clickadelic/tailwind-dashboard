@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+	background: linear-gradient(183.77deg, rgb(22, 119, 255) 11.46%, rgb(0, 62, 179) 100.33%);
+}
+
+.list-breadcrumbs {
+	li:after {
+		content: ">";
+		@apply mx-2 text-neutral-400;
+	}
+	li:last-child:after {
+		@apply hidden;
+	}
+}
