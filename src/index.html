@@ -165,44 +165,52 @@
 							d="M2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m10.646 2.146a.5.5 0 0 1 .708.708L11.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zM2 6.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5m0 3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5" />
 					</svg>
 				</button>
-				<ul class="hidden fixed right-5 md:inline-flex md:mt-1 px-3">
+				<ul class="hidden fixed right-5 md:inline-flex md:mt-1 p-3 md:p-0 md:pl-3">
 					<li>
-						<button class="hover:bg-slate-100 mt-1 mx-1 inline-flex p-2 rounded mega-menu-trigger">
-							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-								class="bi bi-windows" viewBox="0 0 16 16">
-								<path
-									d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16z" />
-							</svg>
-						</button>
-						<div
-							class="absolute hidden grid-cols-3 w-[860px] h-72 rounded-md overflow-hidden top-12 right-12 bg-white shadow-md border">
-							<div class="gradient bg-waves p-8 flex flex-col">
-								<h2 class="text-white text-2xl font-medium mb-6">Explore your Data</h2>
-								<p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Repellat, quod.</p>
-								<a class="text-slate-600 bg-slate-50 p-2 mt-5 rounded-md">View</a>
+						<div class="group cursor-pointer relative">
+							<div>
+								<button class="mx-1 inline-flex p-3 rounded cursor-pointer group-hover:bg-slate-200">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-windows" viewBox="0 0 16 16">
+										<path
+											d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16z" />
+									</svg>
+								</button>
 							</div>
-							<div class="p-8">
-								<span class="block font-medium mb-4">Authentication</span>
-								<ul class="list-disc ml-5">
-									<li><a class="mb-2 block hover:text-slate-500" href="/">Login</a></li>
-									<li><a class="mb-2 block hover:text-slate-500" href="/">Register</a></li>
-									<li><a class="mb-2 block hover:text-slate-500" href="/">Forgot Password</a></li>
-									<li><a class="mb-2 block hover:text-slate-500" href="/">Delete Account</a></li>
-								</ul>
-							</div>
-							<div class="p-8">
-								<span class="block font-medium mb-4">Dashboard</span>
-								<ul class="list-disc ml-5">
-									<li><a class="mb-2 block hover:text-slate-500" href="/">Overview</a></li>
-									<li><a class="mb-2 block hover:text-slate-500" href="/">Data Sets</a></li>
-									<li><a class="mb-2 block hover:text-slate-500" href="/">Administration</a></li>
-								</ul>
+							<div
+								class="absolute w-[960px] h-80 top-10 right-[-220px] z-50 invisible group-hover:visible grid grid-cols-3 rounded-md overflow-hidden bg-white shadow-md border">
+								<div class="gradient bg-waves p-8 flex flex-col">
+									<h2 class="text-white text-2xl font-medium mb-6">Explore your Data</h2>
+									<p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing
+										elit.
+										Repellat, quod.</p>
+									<a class="text-slate-600 bg-slate-50 p-2 mt-5 rounded-md">View</a>
+								</div>
+								<div class="p-8">
+									<span class="block font-medium mb-4">Authentication</span>
+									<ul class="list-disc ml-5">
+										<li><a class="mb-2 block hover:text-slate-500" href="/">Login</a></li>
+										<li><a class="mb-2 block hover:text-slate-500" href="/">Register</a></li>
+										<li><a class="mb-2 block hover:text-slate-500" href="/">Forgot Password</a>
+										</li>
+										<li><a class="mb-2 block hover:text-slate-500" href="/">Delete Account</a>
+										</li>
+									</ul>
+								</div>
+								<div class="p-8">
+									<span class="block font-medium mb-4">Dashboard</span>
+									<ul class="list-disc ml-5">
+										<li><a class="mb-2 block hover:text-slate-500" href="/">Overview</a></li>
+										<li><a class="mb-2 block hover:text-slate-500" href="/">Data Sets</a></li>
+										<li><a class="mb-2 block hover:text-slate-500" href="/">Administration</a>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</li>
 					<li>
-						<button class="hover:bg-slate-100 mt-1 mx-1 inline-flex p-2 rounded">
+						<button class="hover:bg-slate-200 mx-1 inline-flex p-3 rounded">
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 								class="bi bi-translate" viewBox="0 0 16 16">
 								<path
@@ -213,7 +221,7 @@
 						</button>
 					</li>
 					<li>
-						<button class="hover:bg-slate-100 mt-1 mx-1 inline-flex p-2 rounded">
+						<button class="hover:bg-slate-200 mx-1 inline-flex p-3 rounded">
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 								class="bi bi-bell" viewBox="0 0 16 16">
 								<path
@@ -223,7 +231,7 @@
 						</button>
 					</li>
 					<li>
-						<button class="hover:bg-slate-100 mt-1 mx-1 inline-flex p-2 rounded">
+						<button class="hover:bg-slate-200 mx-1 inline-flex p-3 rounded">
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 								class="bi bi-envelope" viewBox="0 0 16 16">
 								<path
@@ -232,7 +240,7 @@
 						</button>
 					</li>
 					<li>
-						<button class="hover:bg-slate-100 mt-1 mx-1 inline-flex p-2 rounded">
+						<button class="hover:bg-slate-200 mx-1 inline-flex p-3 rounded">
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 								class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
 								<path fill-rule="evenodd"
@@ -241,7 +249,7 @@
 						</button>
 					</li>
 					<li>
-						<button class="hover:bg-slate-100 mt-1 mx-1 inline-flex p-2 rounded">
+						<button class="hover:bg-slate-200 mx-1 inline-flex p-3 rounded">
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 								class="bi bi-gear" viewBox="0 0 16 16">
 								<path
@@ -252,14 +260,14 @@
 						</button>
 					</li>
 					<li>
-						<button class="hover:bg-slate-100 mx-2 inline-flex p-2 rounded">
+						<button class="hover:bg-slate-200 ml-2 inline-flex p-2 rounded">
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 								class="bi bi-person-circle mt-1 mr-2" viewBox="0 0 16 16">
 								<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
 								<path fill-rule="evenodd"
 									d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
 							</svg>
-							<span>Username</span>
+							<span class="font-medium">JWT User</span>
 						</button>
 					</li>
 				</ul>
@@ -274,17 +282,16 @@
 				</ul>
 			</nav>
 			<main class="md:w-full">
-				<div
-					class="w-full bg-[linear-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-sky-400 to-blue-700 h-[200px] border border-slate-300 mb-4 rounded-md">
+				<div class="w-full bg-slate-300 h-[200px] border border-slate-300 mb-4 rounded-md">
 
 				</div>
 				<div class="grid grid-cols-2 md:grid-cols-4 gap-3">
-					<div class="bg-white rounded-lg pb-2 mb-3 border border-slate-200 overflow-hidden">
+					<div class="bg-white rounded-lg mb-3 border border-slate-200 overflow-hidden">
 						<div class="p-3">
 							<h2 class="font-medium w-100 mb-2 text-neutral-600">Total Users</h2>
 							<h3 class="flex justify-start mr-3"><span class="text-xl mr-3">78.250</span>
 								<span
-									class="flex whitespace-nowrap rounded-[0.27rem] bg-blue border border-blue-500 bg-blue-200 px-[0.65em] pb-[0.25em] pt-[0.5em] text-center align-baseline text-[0.75em] leading-none text-blue-600 top-[-3px] relative">
+									class="flex whitespace-nowrap rounded-[0.27rem] bg-blue border border-blue-500 bg-blue-200 px-[0.5em] pb-[0.25em] pt-[0.55em] text-center align-baseline text-[0.75em] leading-none text-blue-600 top-[-1px] relative">
 									<span class="mr-2">
 										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
 											fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
@@ -296,7 +303,7 @@
 							</h3>
 						</div>
 						<!-- Start fake data -->
-						<div class="flex justify-start items-end p-3">
+						<div class="flex justify-start items-end px-3 pt-3">
 							<div class="w-2 h-[100px] bg-blue-600 mr-1"></div>
 							<div class="w-2 h-[90px] bg-blue-600 mr-1"></div>
 							<div class="w-2 h-[100px] bg-blue-600 mr-1"></div>
@@ -332,12 +339,20 @@
 						</div>
 						<!-- End fake data -->
 					</div>
-					<div class="bg-white rounded-lg pb-2 mb-3 border border-slate-200 overflow-hidden">
+					<div class="bg-white rounded-lg mb-3 border border-slate-200 overflow-hidden">
 						<div class="p-3">
 							<h2 class="font-medium w-100 mb-2 text-neutral-600">Total Orders</h2>
-							<h3><span class="text-xl">18.800</span>
+							<h3 class="flex justify-start"><span class="text-xl mr-3">18.800</span>
 								<span
-									class="inline-block whitespace-nowrap rounded-[0.27rem] bg-amber-400 px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-[0.75em] font-bold leading-none text-white top-[-3px] relative">New</span>
+									class="flex whitespace-nowrap rounded-[0.27rem] bg-blue border border-amber-500 bg-amber-200 px-[0.5em] pb-[0.25em] pt-[0.55em] text-center align-baseline text-[0.75em] leading-none text-amber-600 top-[-1px] relative">
+									<span class="mr-2">
+										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+											fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+										</svg>
+									</span>
+									<span>40%</span></span>
 							</h3>
 						</div>
 						<div class="flex justify-start items-end p-3">
@@ -355,22 +370,63 @@
 							<div class="w-2 h-[100px] bg-amber-600 mr-1"></div>
 						</div>
 					</div>
-					<div class="bg-white rounded-lg pb-2 mb-3 border border-slate-200 overflow-hidden">
-						<h2 class="font-medium w-100 p-3 mb-2">Box</h2>
-						<p class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, tempore!</p>
+					<div class="bg-white rounded-lg mb-3 border border-slate-200 overflow-hidden">
+						<div class="p-3">
+							<h2 class="font-medium w-100 mb-2 text-neutral-600">Total Sales</h2>
+							<h3 class="flex justify-start mr-3"><span class="text-xl mr-3">78.250</span>
+								<span
+									class="flex whitespace-nowrap rounded-[0.27rem] bg-blue border border-blue-500 bg-blue-200 px-[0.5em] pb-[0.25em] pt-[0.55em] text-center align-baseline text-[0.75em] leading-none text-blue-600 top-[-1px] relative">
+									<span class="mr-2">
+										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+											fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+										</svg>
+									</span>
+									<span>70,5%</span></span>
+							</h3>
+						</div>
 					</div>
-					<div class="bg-white rounded-lg pb-2 mb-3 border border-slate-200 overflow-hidden">
-						<h2 class="font-medium w-100 p-3 mb-2">Box</h2>
-						<p class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, tempore!</p>
+					<div class="bg-white rounded-lg mb-3 border border-slate-200 overflow-hidden">
+						<div class="p-3">
+							<h2 class="font-medium w-100 mb-2 text-neutral-600">Total Marketing</h2>
+							<h3 class="flex justify-start mr-3"><span class="text-xl mr-3">78.250</span>
+								<span
+									class="flex whitespace-nowrap rounded-[0.27rem] bg-blue border border-blue-500 bg-blue-200 px-[0.5em] pb-[0.25em] pt-[0.55em] text-center align-baseline text-[0.75em] leading-none text-blue-600 top-[-1px] relative">
+									<span class="mr-2">
+										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+											fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+											<path fill-rule="evenodd"
+												d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+										</svg>
+									</span>
+									<span>70,5%</span></span>
+							</h3>
+						</div>
 					</div>
 				</div>
-
+				<div class="grid">
+					<div class="grid grid-cols-12 gap-3">
+						<div class="col-span-7">
+							<h3 class="font-medium text-lg mb-3">Income Overview</h3>
+							<div class="bg-white rounded-md border border-slate-200 p-3 h-48">
+								more stats
+							</div>
+						</div>
+						<div class="col-span-5">
+							<h3 class="font-medium text-lg mb-3">Page views by page title</h3>
+							<div class="bg-white rounded-md border border-slate-200 p-3 h-48">
+								more stats
+							</div>
+						</div>
+					</div>
+				</div>
 			</main>
 		</div>
 	</div>
 	<!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
 	<script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
-	<script src="./actions.js"></script>
+	<script src="./dashboard.js"></script>
 </body>
 
 </html>
