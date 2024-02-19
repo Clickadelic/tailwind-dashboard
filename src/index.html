@@ -12,13 +12,14 @@
 <body class="bg-white">
 	<div class="App bg-slate-100 min-h-screen">
 		<!-- Left Sidebar -->
-		<aside class="App-sidebar hidden fixed md:block top-0 left-0 w-64 min-h-screen border-r bg-white">
+		<aside class="App-sidebar hidden fixed md:block top-0 left-0 w-64 min-h-screen border-r bg-white"
+			id="main-sidebar">
 			<div class="App-sidebar-logo hidden md:flex justify-center px-2 py-3">
 				<h1>
 					<a href="/" class="flex justify-between mt-2 text-slate-900 hover:opacity-75">
 						<img src="../public/Dashboard.svg" class="logo inline mr-2 -mt-1 h-8 w-8"
 							alt="Tailwind Dashboard" />
-						<span><span class="font-medium mr-1">TW</span><span
+						<span id="tailwind-dashboard"><span class="font-medium mr-1">TW</span><span
 								class="font-bold">Dashboard</span></span></span>
 					</a>
 				</h1>
@@ -37,7 +38,7 @@
 											d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4M3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707M2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.39.39 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.39.39 0 0 0-.029-.518z" />
 										<path fill-rule="evenodd"
 											d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A8 8 0 0 1 0 10m8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3" />
-									</svg></span>Dashboard<span
+									</svg></span class="text-toggle">Dashboard<span
 									class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 										stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
@@ -69,7 +70,7 @@
 											d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z" />
 										<path
 											d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z" />
-									</svg></span>Projects
+									</svg></span><span class="text-toggle">Projects</span>
 								<span
 									class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -101,7 +102,7 @@
 										<path fill-rule="evenodd"
 											d="M0 0h1v15h15v1H0zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07" />
 									</svg></span>
-								Data
+								<span class="text-toggle">Data</span>
 								<span
 									class="-mr-1 ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -129,7 +130,7 @@
 				<img src="../public/Avatar-1.png" class="w-12 h-12 mr-2 rounded-full border border-slate-400"
 					alt="Placekitten" />
 				<div>
-					<h4 class="text-base text-neutral-600">Max Operator</h4>
+					<h4 class="text-base text-neutral-600">JWT User</h4>
 					<span class="text-xs text-neutral-600">Administrator</span>
 				</div>
 			</div>
@@ -178,7 +179,7 @@
 								</button>
 							</div>
 							<div
-								class="absolute w-[960px] h-80 top-10 right-[-220px] z-50 invisible group-hover:visible grid grid-cols-3 rounded-md overflow-hidden bg-white shadow-md border">
+								class="absolute w-[960px] h-80 top-10 right-[-362px] z-50 invisible group-hover:visible grid grid-cols-4 rounded-md overflow-hidden bg-white shadow-md border">
 								<div class="gradient bg-waves p-8 flex flex-col">
 									<h2 class="text-white text-2xl font-medium mb-6">Explore your Data</h2>
 									<p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -194,6 +195,15 @@
 										<li><a class="mb-2 block hover:text-slate-500" href="/">Forgot Password</a>
 										</li>
 										<li><a class="mb-2 block hover:text-slate-500" href="/">Delete Account</a>
+										</li>
+									</ul>
+								</div>
+								<div class="p-8">
+									<span class="block font-medium mb-4">Dashboard</span>
+									<ul class="list-disc ml-5">
+										<li><a class="mb-2 block hover:text-slate-500" href="/">Overview</a></li>
+										<li><a class="mb-2 block hover:text-slate-500" href="/">Data Sets</a></li>
+										<li><a class="mb-2 block hover:text-slate-500" href="/">Administration</a>
 										</li>
 									</ul>
 								</div>
@@ -267,7 +277,7 @@
 								<path fill-rule="evenodd"
 									d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
 							</svg>
-							<span class="font-medium">JWT User</span>
+							<span class="font-medium toggle-text">JWT User</span>
 						</button>
 					</li>
 				</ul>
@@ -282,8 +292,13 @@
 				</ul>
 			</nav>
 			<main class="md:w-full">
-				<div class="w-full bg-slate-300 h-[200px] border border-slate-300 mb-4 rounded-md">
-
+				<div
+					class="w-full h-[200px] border border-slate-300 mb-4 rounded-md bg-gradient-to-r from-blue-600 via-sky-400 to-cyan-100 p-8 text-white">
+					<h1 class="text-xl mb-2">Welcome to</h1>
+					<h2 class="text-3xl mb-2">The TailWind Dashboard</h2>
+					<p>The purpose of this project is to get you started with TailWind and Dashboards.</p>
+					<p>Keep in mind - this is not a complete dashboard. It's rather a kick-off point, to get you started
+						and build your own project out of it.</p>
 				</div>
 				<div class="grid grid-cols-2 md:grid-cols-4 gap-3">
 					<div class="bg-white rounded-lg mb-3 border border-slate-200 overflow-hidden">
