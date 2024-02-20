@@ -816,8 +816,8 @@ input[type="range"]:active::-webkit-slider-thumb {
   right: 2.25rem;
 }
 
-.right-\[-340px\] {
-  right: -340px;
+.right-\[-362px\] {
+  right: -362px;
 }
 
 .top-0 {
@@ -862,14 +862,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .top-full {
   top: 100%;
-}
-
-.right-\[-360px\] {
-  right: -360px;
-}
-
-.right-\[-362px\] {
-  right: -362px;
 }
 
 .\!z-40 {
@@ -954,10 +946,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .col-span-7 {
   grid-column: span 7 / span 7;
-}
-
-.col-span-2 {
-  grid-column: span 2 / span 2;
 }
 
 .float-right {
@@ -1166,6 +1154,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .mt-\[0\.15rem\] {
   margin-top: 0.15rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .box-border {
@@ -1496,6 +1488,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   width: 3rem;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
 .w-2 {
   width: 0.5rem;
 }
@@ -1641,8 +1637,12 @@ input[type="range"]:active::-webkit-slider-thumb {
   width: 100vw;
 }
 
-.w-96 {
-  width: 24rem;
+.w-32 {
+  width: 8rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .min-w-0 {
@@ -2083,10 +2083,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-cols-4 {
@@ -2665,11 +2661,6 @@ input[type="range"]:active::-webkit-slider-thumb {
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
-.bg-slate-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
 .bg-slate-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
@@ -2726,11 +2717,6 @@ input[type="range"]:active::-webkit-slider-thumb {
   --tw-gradient-stops: var(--tw-gradient-from), #38bdf8 var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
-.to-sky-400 {
-  --tw-gradient-to: #38bdf8 var(--tw-gradient-to-position);
-  --tw-gradient-to-position:  ;
-}
-
 .to-cyan-100 {
   --tw-gradient-to: #cffafe var(--tw-gradient-to-position);
   --tw-gradient-to-position:  ;
@@ -2774,6 +2760,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .p-8 {
@@ -3068,6 +3058,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-\[0\.75em\] {
   font-size: 0.75em;
 }
@@ -3139,11 +3134,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-black {
@@ -4004,6 +3994,16 @@ input[type="range"]:active::-webkit-slider-thumb {
   border-radius: 50%;
 }
 
+.hover\:border-slate-400:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(148 163 184 / var(--tw-border-opacity));
+}
+
+.hover\:border-slate-300:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
 .hover\:\!bg-\[\#eee\]:hover {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(238 238 238 / var(--tw-bg-opacity)) !important;
@@ -4083,6 +4083,11 @@ input[type="range"]:active::-webkit-slider-thumb {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-slate-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
 .hover\:\!opacity-90:hover {
@@ -5388,6 +5393,10 @@ input[type="range"]:active::-webkit-slider-thumb {
     order: 0;
   }
 
+  .md\:m-64 {
+    margin: 16rem;
+  }
+
   .md\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -5403,6 +5412,14 @@ input[type="range"]:active::-webkit-slider-thumb {
 
   .md\:mt-1 {
     margin-top: 0.25rem;
+  }
+
+  .md\:ml-16 {
+    margin-left: 4rem;
+  }
+
+  .md\:ml-1 {
+    margin-left: 0.25rem;
   }
 
   .md\:block {
@@ -5455,6 +5472,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
   .md\:pr-\[17px\] {
     padding-right: 17px;
+  }
+
+  .md\:pl-24 {
+    padding-left: 6rem;
   }
 }
 

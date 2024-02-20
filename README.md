@@ -1,2 +1,3 @@
-# tailwind-dashboard
-A dashboard theme, heavily inspired by Mantis Dashboard
+# Tailwind Dashboard
+
+A dashboard theme, heavily inspired by Mantis Dashboard.
